@@ -1,7 +1,7 @@
 use std::fs;
 
-fn main() {
-    let filename = "../inputs/day2.txt";
+pub fn run() {
+    let filename = "../inputs/day02.txt";
 
     let contents = fs::read_to_string(filename).expect("Something went wrong reading the file");
     let line_contents = contents

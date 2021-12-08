@@ -1,3 +1,5 @@
-use std::fs;
+mod day_03;
 
-fn main() {}
+fn main() {
+  day_03::run();
+}
